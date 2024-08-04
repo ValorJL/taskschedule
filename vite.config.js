@@ -10,6 +10,7 @@ export default defineConfig({
       external: ['vue-router']
     }
   },
+  base: '/',
   plugins: [
     vue(),
   ],
