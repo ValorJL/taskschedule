@@ -7,7 +7,6 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   build: {
     rollupOptions:{
-      external: ['vue-router']
     }
   },
   base: '/',
@@ -16,7 +15,8 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     }
-  }
+  },
+  publicDir: 'public',
 })

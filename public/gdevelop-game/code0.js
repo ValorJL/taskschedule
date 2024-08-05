@@ -1098,7 +1098,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.Untitled_32sceneCode.userFunc0xa90030 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Untitled_32sceneCode.userFunc0xabc298 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 定义处理器队列
 let processor1Tasks = [];
@@ -2169,7 +2169,7 @@ gdjs.Untitled_32sceneCode.eventsList10(runtimeScene);} //End of subevents
 {
 
 
-gdjs.Untitled_32sceneCode.userFunc0xa90030(runtimeScene);
+gdjs.Untitled_32sceneCode.userFunc0xabc298(runtimeScene);
 
 }
 
@@ -2260,7 +2260,7 @@ gdjs.copyArray(runtimeScene.getObjects("LPTHints"), gdjs.Untitled_32sceneCode.GD
 }
 
 
-};gdjs.Untitled_32sceneCode.userFunc0xc50408 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Untitled_32sceneCode.userFunc0xc3ec28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Define the global canSchedule function
 function canSchedule(task, runtimeScene) {
@@ -2307,7 +2307,7 @@ task5.getVariables().get("canSchedule").setBoolean(taskcanSchedule5);
 task6.getVariables().get("canSchedule").setBoolean(taskcanSchedule6);
 task7.getVariables().get("canSchedule").setBoolean(taskcanSchedule7);
 };
-gdjs.Untitled_32sceneCode.userFunc0xc24458 = function GDJSInlineCode(runtimeScene) {
+gdjs.Untitled_32sceneCode.userFunc0xc3eda8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Define the global canCancel function
 function canCancel(task, runtimeScene) {
@@ -2356,7 +2356,7 @@ task6.getVariables().get("canCancel").setBoolean(taskcanCancel6);
 task7.getVariables().get("canCancel").setBoolean(taskcanCancel7);
 
 };
-gdjs.Untitled_32sceneCode.userFunc0xaf03e0 = function GDJSInlineCode(runtimeScene) {
+gdjs.Untitled_32sceneCode.userFunc0x9a89c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const taskCount = 7; // Assuming seven tasks
 
@@ -2402,7 +2402,7 @@ processor2.getVariables().get("totalTime").setNumber(processorTotalTimes.process
 processor3.getVariables().get("totalTime").setNumber(processorTotalTimes.processor3);
 
 };
-gdjs.Untitled_32sceneCode.userFunc0xc35940 = function GDJSInlineCode(runtimeScene) {
+gdjs.Untitled_32sceneCode.userFunc0x9a8b40 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const taskCount = 7; // Assuming seven tasks
 
@@ -8308,7 +8308,7 @@ gdjs.copyArray(runtimeScene.getObjects("task7"), gdjs.Untitled_32sceneCode.GDtas
 {
 
 
-gdjs.Untitled_32sceneCode.userFunc0xc50408(runtimeScene);
+gdjs.Untitled_32sceneCode.userFunc0xc3ec28(runtimeScene);
 
 }
 
@@ -8323,7 +8323,7 @@ gdjs.Untitled_32sceneCode.userFunc0xc50408(runtimeScene);
 {
 
 
-gdjs.Untitled_32sceneCode.userFunc0xc24458(runtimeScene);
+gdjs.Untitled_32sceneCode.userFunc0xc3eda8(runtimeScene);
 
 }
 
@@ -8459,7 +8459,7 @@ gdjs.copyArray(runtimeScene.getObjects("totalTime"), gdjs.Untitled_32sceneCode.G
 {
 
 
-gdjs.Untitled_32sceneCode.userFunc0xaf03e0(runtimeScene);
+gdjs.Untitled_32sceneCode.userFunc0x9a89c0(runtimeScene);
 
 }
 
@@ -8474,7 +8474,7 @@ gdjs.Untitled_32sceneCode.userFunc0xaf03e0(runtimeScene);
 {
 
 
-gdjs.Untitled_32sceneCode.userFunc0xc35940(runtimeScene);
+gdjs.Untitled_32sceneCode.userFunc0x9a8b40(runtimeScene);
 
 }
 
