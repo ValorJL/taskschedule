@@ -3,12 +3,15 @@
     <h1>You've mastered the theory, let's test your learning in the game!</h1>
     <h2>Three adventurers are lost in the jungle.
       Please help them arrange tasks so that they can have dinner as soon as possible.<br>
-      Drag the yellow squares representing the tasks to the long bars representing the adventurers for task scheduling!</h2>
-    <h3>
+      Drag the yellow squares representing the tasks to the long bars representing the adventurers for task scheduling.<br>
+      The length of the bar that a task becomes after it is dragged onto an adventurer's task list is positively correlated to the time required for that task.<br><br>
+      Arrows between tasks represent dependencies. The arrows point from pretask to posttask.<br>
+      For example, you need to start a fire before you grill the fish.<br><br>
+      If you think your task scheduling follows the logic of the algorithm, click the check button to verify it!<br><br>
       Remember a special rule:<br>
       When an adventurer can handle more than one task, the smallest numbered task will be done first;<br>
       When more than one adventurer can do a same task, the smallest numbered adventurer handles that task.
-    </h3>
+    </h2>
   </div>
   <div class="game">
     <iframe :src="gameUrl" style="width: 85vw; height: 90vh;"></iframe>
