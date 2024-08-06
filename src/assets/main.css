@@ -92,7 +92,21 @@ html, body, #app {
     align-content: center;
 }
 .game-intro{
-    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+.game-answer{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+.toggle-button {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: darkgray;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
