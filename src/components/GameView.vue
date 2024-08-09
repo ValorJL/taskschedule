@@ -10,7 +10,8 @@
       If you think your task scheduling follows the logic of the algorithm, click the check button to verify it!<br><br>
       Remember a special rule:<br>
       When an adventurer can handle more than one task, the smallest numbered task will be done first;<br>
-      When more than one adventurer can do a same task, the smallest numbered adventurer handles that task.
+      When more than one adventurer can do a same task, the smallest numbered adventurer handles that task.<br><br>
+      You don't need to log in. You can turn off the login reminder by clicking the fork on the right.
     </h2>
   </div>
   <div class="game">
@@ -22,25 +23,64 @@
       {{ isContentVisible ? 'Hide the answer':'Show me the answer' }}
     </button>
     <div v-if="isContentVisible">
-      <p>The correct answer is represented in the following format: <br>
-        'Graph: tasks for adventurer 1 || tasks for adventurer 2 || tasks for adventurer 3'.
-      </p>
       <br>
       <p>LPT Algorithm<br>
-        Graph with baked fish:
-        1, 2 || 3, 4 || 6, 5, 7<br>
-        Graph with berries:
-        5,6 || 4, 7 || 1, 3, 2<br>
-        Graph with baked potatoes:
-        1, 4, 5 || 3, 2, 7 || 6<br>
+        Graph with baked fishes:<br>
+        Task 1 → Adventurer 1,
+        Task 3 → Adventurer 2,
+        Task 6 → Adventurer 3,
+        Task 5 → Adventurer 3,
+        Task 4 → Adventurer 2,
+        Task 2 → Adventurer 1,
+        Task 7 → Adventurer 2.
+        <br>
+        Graph with picked berries:<br>
+        Task 5 → Adventurer 1,
+        Task 4 → Adventurer 2,
+        Task 1 → Adventurer 3,
+        Task 3 → Adventurer 3,
+        Task 7 → Adventurer 2,
+        Task 2 → Adventurer 3,
+        Task 6 → Adventurer 1.
+        <br>
+        Graph with roasted potatoes:<br>
+        Task 3 → Adventurer 1,
+        Task 1 → Adventurer 2,
+        Task 6 → Adventurer 3,
+        Task 3 → Adventurer 3,
+        Task 7 → Adventurer 2,
+        Task 2 → Adventurer 3,
+        Task 6 → Adventurer 1.
+        <br>
         <br>
         HLFET Algorithm<br>
-        Graph with baked fish:
-        3, 4, 2 || 1,7 || 6, 5<br>
-        Graph with berries:
-        4, 7, 6 || 5 || 3, 1, 2<br>
-        Graph with baked potatoes:
-        3, 4, 5 || 1, 2, 7 || 6<br>
+        Graph with baked fishes:<br>
+        Task 3 → Adventurer 1,
+        Task 1 → Adventurer 2,
+        Task 6 → Adventurer 3,
+        Task 5 → Adventurer 3,
+        Task 4 → Adventurer 1,
+        Task 2 → Adventurer 1,
+        Task 7 → Adventurer 2.
+        <br>
+        Graph with picked berries:<br>
+        Task 4 → Adventurer 1,
+        Task 5 → Adventurer 2,
+        Task 3 → Adventurer 3,
+        Task 1 → Adventurer 3,
+        Task 7 → Adventurer 1,
+        Task 2 → Adventurer 3,
+        Task 6 → Adventurer 1.
+        <br>
+        Graph with roasted potatoes:<br>
+        Task 3 → Adventurer 1,
+        Task 1 → Adventurer 2,
+        Task 6 → Adventurer 3,
+        Task 2 → Adventurer 2,
+        Task 4 → Adventurer 1,
+        Task 5 → Adventurer 1,
+        Task 7 → Adventurer 2.
+        <br>
       </p>
     </div>
   </div>
