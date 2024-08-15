@@ -7,31 +7,11 @@ import Menu from "@/components/Menu.vue";
 
 
 const routes = [
-    {
-        path: '/',
-        name: 'Home',
-        component: Home,
-    },
-    {
-        path: '/menu',
-        name: 'Menu',
-        component: Menu,
-    },
-    {
-        path: '/lpt',
-        name: 'Lpt',
-        component: LptA,
-    },
-    {
-        path: '/hlfet',
-        name: 'Hlfet',
-        component: HlfetA,
-    },
-    {
-        path: '/game',
-        name: 'Game',
-        component: GameView,
-    },
+    {path: '/', name: 'Home', component: Home,},
+    {path: '/menu', name: 'Menu', component: Menu,},
+    {path: '/lpt', name: 'Lpt', component: LptA,},
+    {path: '/hlfet', name: 'Hlfet', component: HlfetA,},
+    {path: '/game', name: 'Game', component: GameView,},
 ];
 
 const router = createRouter({
@@ -40,3 +20,5 @@ const router = createRouter({
 });
 
 export default router;
+
+

@@ -13,6 +13,7 @@
       When more than one adventurer can do a same task, the smallest numbered adventurer handles that task.<br><br>
       You don't need to log in. You can turn off the login reminder by clicking the fork on the right.
     </h2>
+
   </div>
   <div class="game">
     <iframe :src="gameUrl" style="width: 85vw; height: 90vh;"></iframe>
@@ -93,11 +94,11 @@
 <script>
 export default {
   methods: {
-    goToHome() {
-      this.$router.push({ name: 'Home' });
-    },
     toggleContent() {
       this.isContentVisible = !this.isContentVisible;
+    },
+    goToHome() {
+      this.$router.push({ name: 'Home' });
     }
   },
   data() {
