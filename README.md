@@ -1,10 +1,14 @@
-# taskschedule
+# Task Scheduling Algorithm Gamification Learning Platform
+Task graph scheduling algorithms play an important role in many areas, but their abstract concepts make them difficult to learn. Gamification helps in learning by helping to understand the abstract concepts and increasing the learning interest. In order to explore whether gamification can play a positive role in teaching task graph scheduling algorithms, this project was developed.
 
-This template should help get you started developing with Vue 3 in Vite.
+This project has been temporarily deployed to a server and can be accessed directly via https://fluffy-souffle-3da1c0.netlify.app .
+
+## Source of resources
+The HTML5 game in this project was developed through the game engine GDevelop. And all images used in this project are from free commercial photo libraries(flaticon,unsplash,...).
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[IntelliJ IDEA](https://www.jetbrains.com/idea/) + [node.js](https://nodejs.org/en).
 
 ## Customize configuration
 
